@@ -1,0 +1,58 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3566264, 2018-04-24T09:48:11-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: UniversNextPro-MediumItalic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-531-basic-medium-italic/
+ * 
+ * Webfont: UniversNextPro-Medium by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-530-basic-medium/
+ * 
+ * Webfont: UniversNextPro-Italic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-431-basic-italic/
+ * 
+ * Webfont: UniversNextPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-430-basic-regular/
+ * 
+ * Webfont: UniversNextPro-BoldItalic by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-631-basic-bold-italic/
+ * 
+ * Webfont: UniversNextPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers-next/pro-630-basic-bold/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3566264
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2010 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Univers is a trademark of Linotype Corp. regi
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/366ab8");
+
+  
+@font-face {font-family: 'UniversNextPro-MediumItalic';src: url('webfonts/366AB8_0_0.eot');src: url('webfonts/366AB8_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/366AB8_0_0.woff2') format('woff2'),url('webfonts/366AB8_0_0.woff') format('woff'),url('webfonts/366AB8_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversNextPro-Medium';src: url('webfonts/366AB8_1_0.eot');src: url('webfonts/366AB8_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/366AB8_1_0.woff2') format('woff2'),url('webfonts/366AB8_1_0.woff') format('woff'),url('webfonts/366AB8_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversNextPro-Italic';src: url('webfonts/366AB8_2_0.eot');src: url('webfonts/366AB8_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/366AB8_2_0.woff2') format('woff2'),url('webfonts/366AB8_2_0.woff') format('woff'),url('webfonts/366AB8_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversNextPro-Regular';src: url('webfonts/366AB8_3_0.eot');src: url('webfonts/366AB8_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/366AB8_3_0.woff2') format('woff2'),url('webfonts/366AB8_3_0.woff') format('woff'),url('webfonts/366AB8_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversNextPro-BoldItalic';src: url('webfonts/366AB8_4_0.eot');src: url('webfonts/366AB8_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/366AB8_4_0.woff2') format('woff2'),url('webfonts/366AB8_4_0.woff') format('woff'),url('webfonts/366AB8_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversNextPro-Bold';src: url('webfonts/366AB8_5_0.eot');src: url('webfonts/366AB8_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/366AB8_5_0.woff2') format('woff2'),url('webfonts/366AB8_5_0.woff') format('woff'),url('webfonts/366AB8_5_0.ttf') format('truetype');}
+ 

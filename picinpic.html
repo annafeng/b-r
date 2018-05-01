@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script>
+
+		$(function() {
+			
+			// get the video
+			// make offset
+			// on scroll event, get position of scrollbar...
+			// if position is below, add the pic in pic class
+			var picInPic = $('.OYP_player');
+			
+		    var top = picInPic.offset().top - parseFloat(picInPic.css('margin-top').replace(/auto/, 0));
+			
+			$(window).on('scroll', function(event) {
+				// what the y position of the scroll is
+				var y = $(this).scrollTop();
+
+				// whether that's below the form
+				if (y >= top) {
+					// if so, ad the fixed class
+					if ( picInPic.is('.pic-in-pic') ) {
+						return;
+					}
+					picInPic.addClass('pic-in-pic');
+				} else {
+					// otherwise remove it
+					picInPic.removeClass('pic-in-pic');
+				}
+			});
+			
+		});
+
+	</script>
+
+	<style>
+
+		html {
+			box-sizing: border-box;
+			height: 200vh;
+		}
+
+		#wrapper {
+		    width: 100vw;
+		    height: 100vh;
+		}
+
+		.OYP_player {
+			width: 100vw;
+			height: 100vh;
+			top: 0;
+			right: 0;
+			transition: .5s;
+		}
+
+		video {
+			width: 100%;
+		}
+
+		.OYP {
+			width: 80%;
+			position: fixed;
+			transition: .5s;
+		}
+
+		.pic-in-pic {
+			width: 25%;
+			position: fixed;
+			top: 0;
+			right: 0;
+			transition: .5s;
+		}
+
+		.pic-in-pic .OYP {
+			width: 25%;
+			/* the player inside pic-in-pic */
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<div class="OYP_player"> <!-- OYP_player -->
+			<video class="OYP" autoplay="true" controls src="videos/OYP.mp4">
+			</video>
+		</div>
+	</div>
+
+</body>
+</html>

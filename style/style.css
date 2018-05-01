@@ -1,0 +1,402 @@
+body {
+    background-color: black;
+    font-family: UniversNextPro-Regular, sans-serif;
+    font-size: 2vw;
+}
+
+video {
+    min-width: 85%;
+    max-width: 100%;
+    display: block;
+}
+
+.text {
+    top: 0;
+    left: 0;
+}
+
+p {
+    letter-spacing: .005em;
+}
+
+.text p + p {
+    text-indent: 2em;
+}
+
+#article, #about {
+    color: white;
+    outline: 10px solid black;
+    width: 85%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 3vw;
+    padding-bottom: 2.5em;
+    margin: 0 auto;
+    margin-top: 100vh;
+    background-color: black;
+    z-index: 999;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#about {
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* NAVIGATION */
+
+.nav {
+    width: 100%;
+    height: 3.75em;
+    line-height: 3.75em;
+    position: fixed;
+    left: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    z-index: 999999;
+}
+
+.nav__txt {
+    color: white;
+    font-size: .95vw;
+    letter-spacing: .05em;
+    bottom: 0;
+}
+
+.nav__top {
+    top: 0;
+    background-color: black;
+    padding-top: .3vw;
+}
+
+.nav__bottom {
+    bottom: 0;
+    background-color: black;
+    padding-bottom: .3vw;
+}
+
+.piece_no {
+    bottom: 0;
+    position: absolute;
+    padding-top: .5%;
+    
+    text-align: right;
+    position: fixed;
+}
+
+.right {
+    text-align: right;
+    background-color: transparent;
+}
+
+.panic_btn {
+    font-size: .95vw;
+    /*width: 10vw;
+    height: 10vw;
+    border-radius: 100px;
+    background-color: white;*/
+}
+
+.panic_btn a:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+/* BODY */
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.player {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+
+#LIASS {
+    width: 100%;
+}
+
+#title_card {
+    outline: 10px solid black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    z-index: 99;
+}
+
+    .title {
+        color: white;
+        font-family: GillFaciaMTPro-Regular;
+        font-size: 2em;
+        line-height: 1.15;
+        width: 100%;
+        text-align: center;
+        top: 49.5%;
+        left: 50.5%;
+        transform: translate(-50%, -50%);
+        position: absolute;  
+    }
+
+/* RELATED VIDEOS */
+
+#related_videos {
+    width: 100%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+    /*padding: 0 1.5%;*/
+    visibility: hidden;
+}
+
+    .thumbnail {
+        cursor: pointer;
+    }
+
+#sidebar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2.5%;
+    padding: 2.5%;
+    /*width: 100%;*/
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+    align-items: center;
+    overflow-y: scroll;
+    z-index: 999;
+}
+
+#sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+    #sidebar > div {
+        /*grid-column: 6 / span 1;*/
+        grid-column: 1 / span all;
+        /* on click move this to 1 / span 6 */
+    }
+
+    .thumbnail_SB {
+        width: 100%;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+
+.thumbnail_SB img {
+    max-width: 100%;
+}
+
+    #expand {
+        padding: 2.5%;
+        max-width: 20%;
+        max-height: 100%;
+        position: absolute;
+        top: 45%;
+        /* nts: properly center this */
+        right: 0;
+        text-align: right;
+        visibility: visible;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    #expand img {
+        width: 15%;
+    }
+
+#col_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.5%;
+    grid-row-gap: 1.15vw;
+    padding: 2.5%;
+}
+
+    #col_2 > div {
+      color: white;
+    }
+
+    #col_2 img {
+        max-width: 100%;
+    }
+
+#col_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.5%;
+    grid-row-gap: 1.15vw;
+    padding: 2.5%;
+}
+
+    #col_3 > div {
+      color: white;
+    }
+
+    #col_3 img {
+        max-width: 100%;
+    }
+
+#col_6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2.5%;
+    grid-row-gap: 1.15vw;
+    padding: 2.5%;
+}
+
+    #col_6 > div {
+      color: white;
+    }
+
+    #col_6 img {
+        max-width: 100%;
+    }
+
+
+ /* OYP */
+
+ #up_next {
+    width: 20vw;
+    position: fixed;
+    top: 1.5vw;
+    right: 1.5vw;
+    padding: .5vw;
+    padding-left: .75vw;
+    background-color: rgb(204,204,204);
+    /*background-color: gold;*/
+    /*box-shadow: 0px 0px 10px white;*/
+    visibility: hidden;
+    z-index: 9999999999;
+}
+
+#up_next p {
+    display: block;
+    color: black;
+    font-size: .95vw;
+    line-height: 1.4em;
+    letter-spacing: .05em;
+}
+
+.OYP_player {
+    width: 85%;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.OYP {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pic-in-pic {
+    width: 20vw;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 1.5vw;
+    left: 78.45vw;
+    transform: translate(0, 0);
+    z-index: 9999999;
+}
+
+/* the player inside pic-in-pic */
+.pic-in-pic .OYP {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* FONTS */
+
+.GillFaciaMTPro-Italic { 
+    font-family: GillFaciaMTPro-Italic;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.GillFaciaMTPro-ItaDisplay { 
+    font-family: GillFaciaMTPro-ItaDisplay;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.GillFaciaMTPro-RegDisplay { 
+    font-family: GillFaciaMTPro-RegDisplay;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.GillFaciaMTPro-Regular { 
+    font-family: GillFaciaMTPro-Regular;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.UniversNextPro-MediumItalic { 
+    font-family: UniversNextPro-MediumItalic;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UniversNextPro-Medium { 
+    font-family: UniversNextPro-Medium;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UniversNextPro-Italic { 
+    font-family: UniversNextPro-Italic;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UniversNextPro-Regular { 
+    font-family: UniversNextPro-Regular;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UniversNextPro-BoldItalic { 
+    font-family: UniversNextPro-BoldItalic;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.UniversNextPro-Bold { 
+    font-family: UniversNextPro-Bold;
+    font-weight: normal;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,46 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3566259, 2018-04-24T09:39:33-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: GillFaciaMTPro-Italic by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/gill-facia-mt/pro-italic/
+ * 
+ * Webfont: GillFaciaMTPro-ItaDisplay by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/gill-facia-mt/pro-titling-italic/
+ * 
+ * Webfont: GillFaciaMTPro-RegDisplay by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/gill-facia-mt/pro-titling-regular/
+ * 
+ * Webfont: GillFaciaMTPro-Regular by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/gill-facia-mt/pro-regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3566259
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Font software Copyright 1996 Adobe Systems Incorporated. Typeface designs Copyright 1996 The Monotype Corporation. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/366ab3");
+
+  
+@font-face {font-family: 'GillFaciaMTPro-Italic';src:url('webfonts/366AB3_0_unhinted_0.woff2') format('woff2'),url('webfonts/366AB3_0_unhinted_0.woff') format('woff'),url('webfonts/366AB3_0_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'GillFaciaMTPro-ItaDisplay';src:url('webfonts/366AB3_1_unhinted_0.woff2') format('woff2'),url('webfonts/366AB3_1_unhinted_0.woff') format('woff'),url('webfonts/366AB3_1_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'GillFaciaMTPro-RegDisplay';src:url('webfonts/366AB3_2_unhinted_0.woff2') format('woff2'),url('webfonts/366AB3_2_unhinted_0.woff') format('woff'),url('webfonts/366AB3_2_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'GillFaciaMTPro-Regular';src:url('webfonts/366AB3_3_unhinted_0.woff2') format('woff2'),url('webfonts/366AB3_3_unhinted_0.woff') format('woff'),url('webfonts/366AB3_3_unhinted_0.ttf') format('truetype');}
+ 
